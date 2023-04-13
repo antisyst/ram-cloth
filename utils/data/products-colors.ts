@@ -1,32 +1,32 @@
 export const productsColors = [
   {
     id: '1',
-    label: 'Black',
+    label: 'Inherit',
     color: '#000000',
   },
   {
     id: '2',
-    label: 'Brown',
+    label: 'Inherit',
     color: '#6F3E18',
   },
   {
     id: '3',
-    label: 'Yellow',
+    label: 'Inherit',
     color: '#D4BE8D',
   },
   {
     id: '4',
-    label: 'Gray',
+    label: 'Inherit',
     color: '#838383',
   },
   {
     id: '5',
-    label: 'White',
+    label: 'Inherit',
     color: '#F3F3F3',
   },
   {
     id: '6',
-    label: 'Blue',
+    label: 'Inherit',
     color: '#0F73AD',
   },
 ];

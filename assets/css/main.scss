@@ -77,6 +77,8 @@ body {
   font-family: var(--main-font);
   color: var(--color-text);
   font-size: 16px;
+  font-family: 'General Sans', sans-serif;
+  font-weight: bold;
   &.body--with-footer {
     .main {
       align-items: normal;
@@ -98,12 +100,7 @@ input::-webkit-inner-spin-button {
 button {
   cursor: pointer;
 }
-
-input[type=number] {
-    -moz-appearance:textfield; /* Firefox */
-}
-
-input, textarea, button, select {
+ textarea, button, select {
   border: none;
   background: none;
   outline: none;
@@ -225,13 +222,16 @@ h1,h2,h3,h4,h5 {
     }
   }
 }
-
+.site-logo span {
+  color: #0072f5;
+  font-weight: bold;
+}
 .site-logo {
   display: flex;
-  font-size: 14px;
+  font-size: 30px;
   align-items: center;
   @include breakpoint(phone) {
-    font-size: 16px;
+    font-size: 25px;
   }
   svg {
     width: 38px;
@@ -372,7 +372,8 @@ h1,h2,h3,h4,h5 {
         color: #FFF;
         margin-right: 76px;
         display: inline-block;
-        font-size: 14px;
+        font-size: 17px;
+        font-weight: bold;
       }
     }
   }
@@ -542,9 +543,6 @@ h1,h2,h3,h4,h5 {
       content: '\e811';
     }
   }
-  .swiper-pagination-progressbar {
-    
-  }
   .shop-data {
     bottom: 0;
     left: 0;
@@ -587,14 +585,13 @@ h1,h2,h3,h4,h5 {
         }
         i {
           margin-right: 27px;
-          height: 39px;
-          width: 39px;
-          font-size: 13px;
+          height: 50px;
+          width: 50px;
+          font-size: 18px;
           flex-shrink: 0;
           display: flex;
           border-radius: 10px;
           color: var(--color-orange);
-          background: var(--color-orange-light);
           justify-content: center;
           align-items: center;
           @include breakpoint(phone) {
@@ -1153,6 +1150,12 @@ h1,h2,h3,h4,h5 {
     }
   }
 }
+.site-footer__bottom p {
+  color: black;
+}
+.site-footer__bottom p a {
+  text-decoration: underline;
+}
 
 .shop-data-items {
   @include breakpoint(phone) {
@@ -1550,14 +1553,7 @@ h1,h2,h3,h4,h5 {
 
 .checkbox-square-wrapper {
   display: flex;
-  .checkbox {
-  }
 }
-
-.checkbox-wrapper {
-
-}
-
 .products-list {
   display: flex;
   flex-wrap: wrap;
@@ -1676,7 +1672,7 @@ h1,h2,h3,h4,h5 {
     flex-wrap: wrap;
     @include breakpoint(phone) {
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
     }
     .product-description-block {
       text-align: center;
@@ -1708,10 +1704,11 @@ h1,h2,h3,h4,h5 {
       p {
         color: #000;
         font-size: 13px;
+        text-align: center;
         line-height: 145%;
-        text-align: left;
         @include breakpoint(phone) {
-          font-size: 14px;
+          font-size: 17px;
+          font-weight: bold;
         }
       }
     }

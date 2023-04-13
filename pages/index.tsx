@@ -11,21 +11,21 @@ const IndexPage = () => {
 
       <section className="featured">
         <div className="container">
-          <article style={{backgroundImage: 'url(/images/featured-1.jpg)'}} className="featured-item featured-item-large">
+          <article style={{backgroundImage: 'url(https://images.unsplash.com/photo-1612029938221-a01e8c947edb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80)'}} className="featured-item featured-item-large">
             <div className="featured-item__content">
               <h3>New arrivals are now in!</h3>
               <a href="#" className="btn btn--rounded">Show Collection</a>
             </div>
           </article>
           
-          <article style={{backgroundImage: 'url(/images/featured-2.jpg)'}} className="featured-item featured-item-small-first">
+          <article style={{backgroundImage: 'url(https://images.pexels.com/photos/1868566/pexels-photo-1868566.jpeg?cs=srgb&dl=pexels-lucas-monteiro-1868566.jpg&fm=jpg)'}} className="featured-item featured-item-small-first">
             <div className="featured-item__content">
-              <h3>Basic t-shirts $29,99</h3>
+              <h3>Oversize t-shirts $29,99</h3>
               <a href="#" className="btn btn--rounded">More details</a>
             </div>
           </article>
           
-          <article style={{backgroundImage: 'url(/images/featured-3.jpg)'}} className="featured-item featured-item-small">
+          <article style={{backgroundImage: 'url(https://images.pexels.com/photos/3679044/pexels-photo-3679044.jpeg?cs=srgb&dl=pexels-maria-eduarda-loura-magalh%C3%A3es-3679044.jpg&fm=jpg)'}} className="featured-item featured-item-small">
             <div className="featured-item__content">
               <h3>Sale this summer</h3>
               <a href="#" className="btn btn--rounded">VIEW ALL</a>

@@ -9,10 +9,10 @@ const PageIntro = () => {
     <section className="page-intro">  
       <Swiper navigation effect="fade" className="swiper-wrapper">
         <SwiperSlide>
-          <div className="page-intro__slide" style={{ backgroundImage: "url('/images/slide-1.jpg')" }}>
+          <div className="page-intro__slide" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1576775068668-c147f14c36f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80')" }}>
             <div className="container">
               <div className="page-intro__slide__content">
-                <h2>Sale of the summer collection</h2>
+                <h2>The ultimate streetwear destination</h2>
                 <a href="#" className="btn-shop"><i className="icon-right"></i>Shop now</a>
               </div>
             </div>
@@ -20,10 +20,10 @@ const PageIntro = () => {
         </SwiperSlide>
 
         <SwiperSlide>
-          <div className="page-intro__slide" style={{ backgroundImage: "url('/images/slide-2.jpg')" }}>
+          <div className="page-intro__slide" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1548123378-bde4eca81d2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80')" }}>
             <div className="container">
               <div className="page-intro__slide__content">
-                <h2>Make your house into a home</h2>
+                <h2>The Youngest Boy Place :)</h2>
                 <a href="#" className="btn-shop"><i className="icon-right"></i>Shop now</a>
               </div>
             </div>
