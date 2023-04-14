@@ -245,7 +245,13 @@ h1,h2,h3,h4,h5 {
     }
   }
 }
-
+.custom-extended-copyright_mvc {
+  font-family: 'Outfit', sans-serif;
+  font-weight: bold;
+}
+.custom-extended-copyright_mvc span {
+  font-weight: bold;
+}
 .breadcrumb {
   padding: 20px 0 20px 0;
   @include breakpoint(phone) {

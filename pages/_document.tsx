@@ -27,8 +27,10 @@ export default class CustomDocument extends Document<DocumentProps> {
         <Head>
         <link href="https://api.fontshare.com/v2/css?f[]=satoshi@900,700,500&f[]=author@500,600,700&f[]=general-sans@500,600,700&f[]=outfit@800,500,700&f[]=beVietnam-pro@600,900,700,800&f[]=excon@900,700,500&f[]=chillax@600,700&f[]=nippo@700&f[]=work-sans@800,600,700,601&display=swap" rel="stylesheet"/>
 
+          {/* We only want to add the scripts if in production */}
           {isProduction && (
             <Fragment>
+              {/* Global Site Tag (gtag.js) - Google Analytics */}
               <script
                 async
                 src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
